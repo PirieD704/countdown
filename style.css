@@ -1,3 +1,8 @@
+@font-face{
+	font-family: 'DS-Digital';
+	src: local('DS-DIGII.ttf');
+}
+
 body{
 	background-color: #16303D;
 }
@@ -24,13 +29,14 @@ h1{
 	margin: auto;
 }
 
-#countdown-timer{
+.countdown-timer{
 	color: white;
 	/* We don't need margin auto because the div is already 100% wide, we need to center the stuff in the div, not the div itself. that's why we use text-align center */
 	text-align: center;
+	margin-bottom: 10px;
 }
 
-#countdown-timer > div{
+.countdown-timer > div{
 	padding: 10px;
 	border-radius: 3px;
 	background-color: #00BF96;
@@ -38,13 +44,30 @@ h1{
 	display: inline-block;
 }
 
-#countdown-timer div > span {
+.countdown-timer div > span {
 	padding: 15px;
 	border-radius: 3px;
-	background-color: #00816A;
+	background-color: #383838;
 	display: inline-block;
 	font-size: 48px;
-	font-family: Helvetica;
+	font-family: DS-Digital;
+	color: #d30808;
+	width: 50px;
+}
+
+.countdown-timer div > input {
+	padding: 15px;
+	border-radius: 3px;
+	background-color: #383838;
+	display: inline-block;
+	font-size: 48px;
+	font-family: DS-Digital;
+	color: #d30808;
+	width: 80px;
+}
+
+#year{
+	width: 130px;
 }
 
 .small-text{
@@ -76,7 +99,9 @@ h1{
 	margin: auto;
 }
 
-
+.centi{
+	width: 60px;
+}
 
 
 
