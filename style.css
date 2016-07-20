@@ -1,0 +1,87 @@
+body{
+	background-color: #16303D;
+}
+
+h1{
+	color: #396;
+	margin: 40px 0px 20px;
+	text-align: center;
+	font-family: Helvetica;
+	font-size: 48px;
+
+}
+
+.rioLogo{
+	width: 30%;
+	text-align: center;
+	margin: auto;
+	margin-bottom: 20px;
+}
+
+#logoRio{
+	width: 100%;
+	text-align: center;
+	margin: auto;
+}
+
+#countdown-timer{
+	color: white;
+	/* We don't need margin auto because the div is already 100% wide, we need to center the stuff in the div, not the div itself. that's why we use text-align center */
+	text-align: center;
+}
+
+#countdown-timer > div{
+	padding: 10px;
+	border-radius: 3px;
+	background-color: #00BF96;
+	/* Make sure these divs behave like blocks, but are on the same line */
+	display: inline-block;
+}
+
+#countdown-timer div > span {
+	padding: 15px;
+	border-radius: 3px;
+	background-color: #00816A;
+	display: inline-block;
+	font-size: 48px;
+	font-family: Helvetica;
+}
+
+.small-text{
+	font-size: 20px;
+	font-family: Helvetica;
+	padding: 8px;
+	padding-bottom: 0px;
+}
+
+.artist-wrapper{
+	text-align: center;
+	margin-top: 30px;
+}
+
+.artist{
+	font-family: Helvetica;
+	font-size: 60px;
+	color: #98D1DD;
+}
+
+.footer{
+	width: 100%;
+
+}
+
+.o-footer__landscape {
+	width: 100%;
+	text-align: center;
+	margin: auto;
+}
+
+
+
+
+
+
+
+
+
+
